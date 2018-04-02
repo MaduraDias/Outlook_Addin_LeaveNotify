@@ -13,20 +13,29 @@ class App extends Component {
     
   }
 
-  setSubject = (value)=>{
+  setSubject = (subject)=>{
     //window.Office.context.mailbox.item.subject = 'set the value';
-    window.Office.context.mailbox.item.subject.setAsync(value);
+    //this.setState(subject)
+    window.Office.context.mailbox.item.subject.setAsync(subject);
   };
 
-   setDate = ()=>{
+   setToday = ()=>{
     //window.Office.context.mailbox.item.subject = 'set the value';
-    window.Office.context.mailbox.item.start.setAsync( new Date("September 27, 2012 12:30:00"));
+    window.Office.context.mailbox.item.start.setAsync( new Date());
+     window.Office.context.mailbox.item.end.setAsync( new Date());
   };
 
 
-   setSelectedDate = (value)=>{
+   setStartdDate = (date)=>{
     //window.Office.context.mailbox.item.subject = 'set the value';
-    window.Office.context.mailbox.item.start.setAsync( new Date(value));
+    // this.setState({ value: date });
+    window.Office.context.mailbox.item.start.setAsync( new Date(date));
+  };
+
+  setEndDate = (date)=>{
+     // this.setState({ value: date });
+    //window.Office.context.mailbox.item.subject = 'set the value';
+    window.Office.context.mailbox.item.end.setAsync( new Date(date));
   };
   
   render() {
@@ -34,9 +43,10 @@ class App extends Component {
       <Fabric>
            
            <TextField  label='Subject' onChanged={this.setSubject} /> 
-            <DatePicker onSelectDate={this.setSelectedDate} />
-            <DefaultButton primary={ true } onClick={this.setDate} >
-              Change Date
+            <DatePicker label='Start Date' onSelectDate={this.setStartdDate} />
+            <DatePicker label='End Date' onSelectDate={this.setEndDate} />
+            <DefaultButton primary={ true } onClick={this.setToday} >
+              Set Today
             </DefaultButton>
       </Fabric>
     );
