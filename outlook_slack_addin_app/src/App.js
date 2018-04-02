@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { DatePicker, DayOfWeek, IDatePickerStrings } from 'office-ui-fabric-react/lib/DatePicker';
+import {Fabric} from 'office-ui-fabric-react/lib/Fabric';
+import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
+import { TextField } from 'office-ui-fabric-react/lib/TextField';
+import { Label } from 'office-ui-fabric-react/lib/Label';
 
 class App extends Component {
   constructor(props) {
@@ -8,28 +13,32 @@ class App extends Component {
     
   }
 
-  setSubject = (event)=>{
+  setSubject = (value)=>{
     //window.Office.context.mailbox.item.subject = 'set the value';
-    window.Office.context.mailbox.item.subject.setAsync(event.target.value);
+    window.Office.context.mailbox.item.subject.setAsync(value);
   };
 
-   setDate = (event)=>{
+   setDate = ()=>{
     //window.Office.context.mailbox.item.subject = 'set the value';
     window.Office.context.mailbox.item.start.setAsync( new Date("September 27, 2012 12:30:00"));
+  };
+
+
+   setSelectedDate = (value)=>{
+    //window.Office.context.mailbox.item.subject = 'set the value';
+    window.Office.context.mailbox.item.start.setAsync( new Date(value));
   };
   
   render() {
     return (
-      <div id="content">
-        <div id="content-header">
-          <div className="padding">
-            
-            <label>Subject</label>
-            <input type="text" name="subject" onChange={this.setSubject}/> 
-            <button onClick={this.setDate} > Set Date </button>
-          </div>
-        </div>
-      </div>
+      <Fabric>
+           
+           <TextField  label='Subject' onChanged={this.setSubject} /> 
+            <DatePicker onSelectDate={this.setSelectedDate} />
+            <DefaultButton primary={ true } onClick={this.setDate} >
+              Change Date
+            </DefaultButton>
+      </Fabric>
     );
   }
 }
