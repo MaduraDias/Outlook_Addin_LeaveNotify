@@ -12,6 +12,11 @@ class App extends Component {
     //window.Office.context.mailbox.item.subject = 'set the value';
     window.Office.context.mailbox.item.subject.setAsync(event.target.value);
   };
+
+   setDate = (event)=>{
+    //window.Office.context.mailbox.item.subject = 'set the value';
+    window.Office.context.mailbox.item.start.setAsync( new Date("September 27, 2012 12:30:00"));
+  };
   
   render() {
     return (
@@ -21,7 +26,7 @@ class App extends Component {
             
             <label>Subject</label>
             <input type="text" name="subject" onChange={this.setSubject}/> 
-            <button onClick={this.setSubject} > Set Subject </button>
+            <button onClick={this.setDate} > Set Date </button>
           </div>
         </div>
       </div>

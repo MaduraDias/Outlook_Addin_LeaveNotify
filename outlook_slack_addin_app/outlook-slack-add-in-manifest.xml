@@ -72,7 +72,9 @@
           <FunctionFile resid="functionFile" />
 
           <!-- Message Read -->
-          <ExtensionPoint xsi:type="MessageComposeCommandSurface">
+          <!-- <ExtensionPoint xsi:type="MessageComposeCommandSurface"> -->
+<ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
+          
             <!-- Use the default tab of the ExtensionPoint or create your own with <CustomTab id="myTab"> -->
             <OfficeTab id="TabDefault">
               <!-- Up to 6 Groups added per Tab -->
