@@ -7,6 +7,8 @@ import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
 import { TextField } from 'office-ui-fabric-react/lib/TextField';
 import { Label } from 'office-ui-fabric-react/lib/Label';
 import { Dropdown } from 'office-ui-fabric-react/lib/Dropdown';
+import  axios from 'axios';
+
 
 class App extends Component {
 
@@ -17,6 +19,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.setSubject("Leave Request");
+    
+    this.getEmailList();
   }
 
 
@@ -41,13 +45,12 @@ class App extends Component {
     // this.setState({ value: date });
      let date = new Date(value);
      this.setState({ startDateTime: date })
-     this.officeMailBoxItem.start.setAsync(date);
   };
 
   setEndDate = (value)=>{
     let date = new Date(value);
     this.setState({ endDateTime: date })
-    this.officeMailBoxItem.end.setAsync(date);
+   // this.officeMailBoxItem.end.setAsync(date);
   };
 
   setLeaveType = (option) => {
@@ -60,12 +63,28 @@ class App extends Component {
 
   setMessage = ()=>{
     this.officeMailBoxItem.body.setAsync(
+      '<div>From :' + this.state.startDateTime + ' From Date:' + this.state.endDateTime + '</div>' +
       '<div>Leave Type :' + this.state.leaveType.text + '</div>' +
       '<div>Reason :' + this.state.reason + '</div>',
-
-      { coercionType: this.office.CoercionType.Html })
+     { coercionType: this.office.CoercionType.Html })
   };
   
+  getEmailList =()=>{
+     
+    let setEmail= (data) =>{
+      this.officeMailBoxItem.to.setAsync([data.to]);
+      this.officeMailBoxItem.cc.setAsync(data.cc);
+    };
+
+     axios.get('https://employeedetail-api.azurewebsites.net/api/Employee/6667/LeaveNotifyEmailList')
+      .then(function (response) {
+       setEmail(response.data);
+      }).catch(function (error) {
+        setEmail(error);
+      });
+
+  };
+
   render() {
     return (
       <Fabric>
@@ -80,9 +99,10 @@ class App extends Component {
               Set Today
             </DefaultButton>
 
-        <DefaultButton primary={true} onClick={this.setMessage} >
-               Prepare Message
+           <DefaultButton primary={true} onClick={this.setMessage} >
+              Ok
             </DefaultButton>
+
 
       </Fabric>
     );

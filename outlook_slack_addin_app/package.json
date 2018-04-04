@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@microsoft/office-js": "^1.1.4",
+    "axios": "^0.18.0",
     "office-ui-fabric-react": "^5.76.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",

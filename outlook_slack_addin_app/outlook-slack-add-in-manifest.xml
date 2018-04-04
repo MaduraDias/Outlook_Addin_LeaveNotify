@@ -53,6 +53,7 @@
   </FormSettings>
 
   <Permissions>ReadWriteItem</Permissions>
+  
   <Rule xsi:type="RuleCollection" Mode="Or">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
@@ -72,8 +73,8 @@
           <FunctionFile resid="functionFile" />
 
           <!-- Message Read -->
-          <!-- <ExtensionPoint xsi:type="MessageComposeCommandSurface"> -->
-<ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
+          <ExtensionPoint xsi:type="MessageComposeCommandSurface">
+<!-- <ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface"> -->
           
             <!-- Use the default tab of the ExtensionPoint or create your own with <CustomTab id="myTab"> -->
             <OfficeTab id="TabDefault">
