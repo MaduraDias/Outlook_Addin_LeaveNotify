@@ -17,3 +17,6 @@ npm install -g yo
 3) Install Office Addin  Project Creator
 
 npm install -g yo generator-office
+
+4)  Add styling
+npm install --save @uifabric/styling
