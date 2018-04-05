@@ -69,7 +69,7 @@ npm install --save @uifabric/styling
 ```
 npm install office-ui-fabric-core
 ```
-8) Run following command if you want to use axio.
+8) Run following command if you want to use axios.
 
 ```
 npm install axios
