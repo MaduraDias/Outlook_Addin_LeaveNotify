@@ -19,10 +19,10 @@ namespace MockApi.Controllers
         {
             return new LeaveNotifyData()
             {
-                 To = "nick.hughes@readify.net",
-                 CC = new string[] {"narges.ghorbani@readify.net"
-                                 ,"Parma.Juss@readify.net"
-                                 ,"richard.banks@readify.net"}
+                 To = "manager@test.com",
+                 CC = new string[] {"resourceManager@test.com"
+                                 ,"accountManager@test.com"
+                                 ,"pc@test.com"}
             };
 
         }
