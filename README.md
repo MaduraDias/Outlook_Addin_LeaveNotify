@@ -1,7 +1,6 @@
  
-# **Developing Office 365 Outlook Add-in with [Office UI Fabric React](Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react)**
+# **Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react)**
  
-
 ## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
 2) axios - [Promise based HTTP client for the browser and node.js](https://github.com/axios/axios) 
