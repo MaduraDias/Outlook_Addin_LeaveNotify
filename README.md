@@ -1,4 +1,5 @@
 
+
 # **Office Outlook-Addin with Office UI Fabric React**
 
 ## **Technology Stack**
@@ -36,8 +37,20 @@ Run following commands on Command Prompt
 ```
  npx create-react-app outlook_leave_addin_app
 ```
+2) Navigate to the outlook_leave_addin_app folder
+
+```
+cd outlook_leave_addin_app
+```
 
 2) Follow the steps [here](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-started-react#generate-the-manifest-file-and-sideload-the-add-in) to create the office add-in manifest file.
+
+3) Install "office-js".
+
+```
+npm install @micrsoft\office-js --save   
+```
+ [Ref:] (https://github.com/OfficeDev/office-js)
 
 4)  Add styling
 ```
