@@ -22,6 +22,7 @@ npm install -g yo
 3) Install Office Addin  Project Creator
 
 ```
+
 npm install -g yo generator-office
 ```
 
@@ -68,5 +69,9 @@ npm install --save @uifabric/styling
 ```
 npm install office-ui-fabric-core
 ```
+8) Run following command if you want to use axio.
 
+```
+npm install axios
+```
   
