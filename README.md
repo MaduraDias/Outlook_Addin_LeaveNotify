@@ -1,5 +1,5 @@
 
-# <b style='color:blue'> Office Outlook-Addin with Office UI Fabric React </b>
+# **Office Outlook-Addin with Office UI Fabric React**
 
 ## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
