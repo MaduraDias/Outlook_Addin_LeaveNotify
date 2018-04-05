@@ -1,5 +1,6 @@
 
 
+
 # **Office Outlook-Addin with Office UI Fabric React**
 
 ## **Technology Stack**
@@ -52,7 +53,22 @@ npm install @micrsoft\office-js --save
 ```
  Ref:(https://github.com/OfficeDev/office-js)
 
-4)  Add styling
+4) Install the Fabric React package 
+
+```
+npm --save install office-ui-fabric-react
+```
+
+5) For styling run following command to install required packages
+
 ```
 npm install --save @uifabric/styling
 ```
+
+6) Run the following command to use the [Office fabric UI Layouts](https://developer.microsoft.com/en-us/fabric#/styles/layout)
+
+```
+npm install office-ui-fabric-core
+```
+
+  
