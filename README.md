@@ -84,7 +84,7 @@ Note: To run the React app locally with HTTPS, type the following command in the
 set HTTPS=true&&npm start
 ```
 
-References
+### References
 
 https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-lifecycle
 
