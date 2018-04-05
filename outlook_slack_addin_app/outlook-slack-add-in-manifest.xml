@@ -16,12 +16,12 @@
   <ProviderName>Madura</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="Outlook Slack Add-In" />
+  <DisplayName DefaultValue="Leave Notify" />
   <Description DefaultValue="[Outlook Add-in description]"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://icons.iconarchive.com/icons/hopstarter/3d-cartoon-addons/512/Microsoft-Outlook-icon.png" />
+  <HighResolutionIconUrl DefaultValue="https://icons.iconarchive.com/icons/hopstarter/3d-cartoon-addons/512/Microsoft-Outlook-icon.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   <!-- <SupportUrl DefaultValue="[Insert the URL of a page that provides support information for the app]" /> -->
@@ -110,19 +110,19 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://icons.iconarchive.com/icons/hopstarter/3d-cartoon-addons/512/Microsoft-Outlook-icon.png"/>
+        <bt:Image id="icon32" DefaultValue="https://icons.iconarchive.com/icons/hopstarter/3d-cartoon-addons/512/Microsoft-Outlook-icon.png"/>
+        <bt:Image id="icon80" DefaultValue="https://icons.iconarchive.com/icons/hopstarter/3d-cartoon-addons/512/Microsoft-Outlook-icon.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://localhost:3000/function-file/function-file.html"/>
         <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
-        <bt:String id="customTabLabel"  DefaultValue="My Add-in Tab"/>
-        <bt:String id="paneReadButtonLabel" DefaultValue="Slack Add-in"/>
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Post to slack"/>
+        <bt:String id="groupLabel" DefaultValue="Utilities"/>
+        <bt:String id="customTabLabel"  DefaultValue="Utilities"/>
+        <bt:String id="paneReadButtonLabel" DefaultValue="Leave Notify"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Notify Leaves"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="paneReadSuperTipDescription" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>

@@ -90,7 +90,7 @@ class App extends Component {
       <div id="addInContainerDiv"  class= 'ms-grid'>
        
           <div class = "ms-Grid-row" >
-            <DatePicker className = "ms-Grid-col ms-sm4 ms-lg4"
+            <DatePicker className = "ms-Grid-col ms-sm12 ms-lg4"
             name = "Start Date"
             placeholder = 'Select the From Date'
             onSelectDate = {
@@ -100,7 +100,7 @@ class App extends Component {
            </div>
           
           <div class = "ms-Grid-row" >
-            <DatePicker className = "ms-Grid-col ms-sm4 ms-lg4"
+            <DatePicker className = "ms-Grid-col ms-sm12 ms-lg4"
             name = "End Date"
             placeholder = 'Select the To Date'
             onSelectDate = {
@@ -110,7 +110,7 @@ class App extends Component {
           </div>
 
            <div class = "ms-Grid-row" >
-            <Dropdown className = "ms-Grid-col ms-sm4 ms-lg4"
+            <Dropdown className = "ms-Grid-col ms-sm12 ms-lg4"
             placeHolder = 'Select Leave Type'
             onChanged = {
               this.setLeaveType
@@ -123,8 +123,8 @@ class App extends Component {
             </div>
 
         <div class="ms-Grid-row" >
-          <TextField className="ms-Grid-col ms-sm4 ms-lg4"
-            Label='Reason'
+          <TextField className="ms-Grid-col ms-sm12 ms-lg4"
+            label='Reason'
             onChanged={
               this.setReason
             }
@@ -136,7 +136,7 @@ class App extends Component {
 
 
            <div class = "ms-Grid-row" >
-           <div id="buttonContainerDiv" className="ms-Grid-col ms-sm4 ms-lg4">
+           <div id="buttonContainerDiv" className="ms-Grid-col ms-sm12 ms-lg4">
               <DefaultButton id='OKButton' primary={true} onClick={this.createMessage} >
                 OK
               </DefaultButton>
