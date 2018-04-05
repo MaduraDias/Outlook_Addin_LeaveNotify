@@ -81,7 +81,7 @@ Note: To run the React app locally with HTTPS, type the following command in the
 set HTTPS=true&&npm start
 ```
 
-##Configuring the react build
+## Configuring the react build
 
 Reference: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#building-for-relative-paths
 
