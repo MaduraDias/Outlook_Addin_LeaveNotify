@@ -81,6 +81,10 @@ Note: To run the React app locally with HTTPS, type the following command in the
 set HTTPS=true&&npm start
 ```
 
+##Configuring the react build
+
+Reference: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#building-for-relative-paths
+
 ### References
 
 https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-lifecycle
@@ -104,4 +108,6 @@ https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-star
 https://github.com/OfficeDev/office-js
 
 https://developer.microsoft.com/en-us/fabric#/get-started
+
+
 
