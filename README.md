@@ -1,5 +1,5 @@
 
-# **Office Outlook-Addin with Office UI Fabric React**
+# **Developing Office 365 Outlook Add-in with Office UI Fabric React in Windows Enviornment**
 
 ## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
@@ -13,12 +13,10 @@
 ```
 npm install -g create-react-app
 ```
-
 2)	Install Yeoman
 ```
 npm install -g yo
 ```
-
 
 3) Install Office Addin  Project Creator
 
@@ -31,7 +29,6 @@ npm install -g yo generator-office
 Note : (You have to follow the following steps only if you create a new add-in
 
 Run following commands on Command Prompt
-
 
 1) Generate the new React App
 
