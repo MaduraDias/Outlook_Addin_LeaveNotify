@@ -19,6 +19,7 @@ npm install -g create-react-app
 npm install -g yo
 ```
 
+
 3) Install Office Addin  Project Creator
 
 ```
@@ -74,4 +75,17 @@ npm install office-ui-fabric-core
 ```
 npm install axios
 ```
-  
+
+References
+https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-lifecycle
+https://dev.office.com/reference/add-ins/outlook/1.5/Office.context.mailbox.item
+https://github.com/OfficeDev/office-js-docs/blob/master/reference/
+https://github.com/OfficeDev/office-ui-fabric-react/tree/master/packages/office-ui-fabric-react/src/components
+https://docs.microsoft.com/en-us/office/dev/add-ins/develop/use-the-oauth-authorization-framework-in-an-office-add-in
+https://developer.microsoft.com/en-us/office/docs
+https://github.com/OfficeDev/office-ui-fabric-react/blob/master/packages/icons/README.md
+https://github.com/OfficeDev/office-ui-fabric-react/tree/master/packages/styling
+https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-started-react
+https://github.com/OfficeDev/office-js
+https://developer.microsoft.com/en-us/fabric#/get-started
+
