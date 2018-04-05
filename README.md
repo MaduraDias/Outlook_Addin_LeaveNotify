@@ -50,6 +50,7 @@ cd outlook_leave_addin_app
 4) Install "office-js".
 
 ```
+
 npm install @micrsoft\office-js --save   
 ```
  Ref:(https://github.com/OfficeDev/office-js)
@@ -75,6 +76,12 @@ npm install office-ui-fabric-core
 
 ```
 npm install axios
+```
+
+Note: To run the React app locally with HTTPS type the following command in the location of the root folder.Beacuse, add-ins communicate only with https end points. 
+
+```
+set HTTPS=true&&npm start
 ```
 
 References
