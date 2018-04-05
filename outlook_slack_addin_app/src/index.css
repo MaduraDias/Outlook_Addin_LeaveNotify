@@ -1,5 +1,15 @@
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-family: sans-serif;
+}
+
+#buttonContainerDiv
+{
+  padding-right:0px;
+}
+
+#addInContainerDiv div {
+  padding-top: 2px;
+  padding-bottom: 2px
 }

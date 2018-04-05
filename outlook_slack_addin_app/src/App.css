@@ -22,3 +22,8 @@
 .padding {
   padding: 15px;
 }
+
+#OKButton
+{
+  float: right;
+}
