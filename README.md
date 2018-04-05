@@ -1,13 +1,13 @@
 
-# ![#1589F0] **Office Outlook-Addin with Office UI Fabric React**
+# **Office Outlook-Addin with Office UI Fabric React**
 
-## ![#1589F0] **Technology Stack**
+## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
 2) axios - [Promise based HTTP client for the browser and node.js](https://github.com/axios/axios) 
 
 
 
-## ![#1589F0] **Prerequisites**
+## **Prerequisites**
 
 1)	Install create-react-app
 ```
