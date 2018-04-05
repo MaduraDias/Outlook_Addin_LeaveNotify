@@ -1,13 +1,13 @@
+ 
+# **Office Outlook-Addin with Office UI Fabric React**
 
-#**Office Outlook-Addin with Office UI Fabric React**
-
-##**Technology Stack**
+## **Technology Stack**
 1) React - Office UI Fabric React
 2) Axios
 
 
 
-##**Initial Environment Setup**
+## **Initial Environment Setup**
 
 1)	Install create-react-app
  
