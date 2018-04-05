@@ -50,7 +50,7 @@ cd outlook_leave_addin_app
 ```
 npm install @micrsoft\office-js --save   
 ```
- [Ref:](https://github.com/OfficeDev/office-js)
+ Ref:(https://github.com/OfficeDev/office-js)
 
 4)  Add styling
 ```
