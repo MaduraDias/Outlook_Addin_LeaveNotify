@@ -49,9 +49,10 @@ cd outlook_leave_addin_app
 4) Install "office-js".
 
 ```
-
 npm install @micrsoft\office-js --save   
-`` Ref:(https://github.com/OfficeDev/office-js)
+```
+
+Ref:(https://github.com/OfficeDev/office-js)
 
 5) Install the Fabric React package 
 
