@@ -1,5 +1,5 @@
-
-# **Developing Office 365 Outlook Add-in with [Office UI Fabric React](# **Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react) **
+ 
+# **Developing Office 365 Outlook Add-in with [Office UI Fabric React](Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react)**
  
 
 ## **Technology Stack**
