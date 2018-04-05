@@ -3,7 +3,7 @@
 
 ## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
-2) Axios - Promise based [HTTP client for the browser and node.js](https://github.com/axios/axios) 
+2) axios - [Promise based HTTP client for the browser and node.js](https://github.com/axios/axios) 
 
 
 
