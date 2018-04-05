@@ -1,4 +1,5 @@
 
+
 # **Office Outlook-Addin with Office UI Fabric React**
 
 ## **Technology Stack**
@@ -23,7 +24,6 @@ npm install -g yo
 3) Install Office Addin  Project Creator
 
 ```
-
 npm install -g yo generator-office
 ```
 
@@ -45,7 +45,7 @@ Run following commands on Command Prompt
 cd outlook_leave_addin_app
 ```
 
-3) Follow the steps [here](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-started-react#generate-the-manifest-file-and-sideload-the-add-in) to create the office add-in manifest file.
+3) Follow the steps [here](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-started-react#generate-the-manifest-file-and-sideload-the-add-in) (select outlook for "Which Office client application would you like to support" question) to create the office add-in manifest file.
 
 4) Install "office-js".
 
