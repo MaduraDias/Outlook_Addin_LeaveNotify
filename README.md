@@ -30,7 +30,7 @@ npm install -g yo generator-office
 1) Generate the new React App
 
 ```
- npx create-react-app *app-name*
+ npx create-react-app _app-name_
 ```
 
 4)  Add styling
