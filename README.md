@@ -83,7 +83,9 @@ set HTTPS=true&&npm start
 
 ## Configuring the react build
 
-Reference: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#building-for-relative-paths
+References:
+https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#building-for-relative-paths
+https://github.com/facebook/create-react-app/issues/3903
 
 ### References
 
