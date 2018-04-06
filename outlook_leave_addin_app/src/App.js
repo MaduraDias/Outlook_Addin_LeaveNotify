@@ -62,10 +62,13 @@ class App extends Component {
   };
 
   createMessage = ()=>{
-    this.officeMailBoxItem.body.setAsync(
-      '<div>From :' + this.emailDetails.startDate.toLocaleDateString() + ' To:' + this.emailDetails.endDate.toLocaleDateString() + '</div>' +
-      '<div>Leave Type :' + this.emailDetails.leaveType.text + '</div>' +
-      '<div>Reason :' + this.emailDetails.reason + '</div>',
+    this.officeMailBoxItem.body.prependAsync(
+      '<p>' + 
+      ' Hi, <br/>' + 
+      'I am on '+this.emailDetails.leaveType.text + ' from ' + this.emailDetails.startDate.toLocaleDateString() + ' to ' + this.emailDetails.endDate.toLocaleDateString() + 
+      ', because ' + this.emailDetails.reason + '. <br/> <br/>' +
+      'Thank you.' +
+      '</p>',
      { coercionType: this.office.CoercionType.Html })
   };
   
