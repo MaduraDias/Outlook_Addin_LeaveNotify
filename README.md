@@ -83,7 +83,7 @@ set HTTPS=true&&npm start
 
 ## How to Build the Addin 
 
-1) Put following setting in the ```package.json```. This setting will make sure to refer the "js" and "css" files in the ```assets``` folder using the relative path in the index.html in the build package. [More details are here.](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths)
+1) Put following setting in the ```package.json```. This setting will make sure to refer the "js" and "css" files in the ```assets``` folder using the relative path in the index.html of the build package. [More details are here.](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths)
 
 ```
 put this in your package.json
