@@ -81,6 +81,22 @@ Note: To run the React app locally with HTTPS, type the following command in the
 set HTTPS=true&&npm start
 ```
 
+## How to Build the Addin 
+
+1) Put following setting in the ```package.json```. This setting will make sure to refer the "js" and "css" files in the ```assets``` folder using the relative path in the index.html of the build package. [More details are here.](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths)
+
+```
+put this in your package.json
+```
+
+2) Run the following command to build the package
+
+```
+npm run build
+```
+
+3) Build package will created be in the ```build``` folder.
+
 ### References
 
 https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-lifecycle
@@ -104,4 +120,6 @@ https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-get-star
 https://github.com/OfficeDev/office-js
 
 https://developer.microsoft.com/en-us/fabric#/get-started
+
+
 
