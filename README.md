@@ -26,9 +26,7 @@ npm install -g yo generator-office
 
 ## Creating the Addin App and Installing Dependencies 
 
-Note : (You have to follow the following steps only if you create a new add-in
-
-Run following commands on Command Prompt
+Run following commands on the Command Prompt
 
 1) Generate the new React App
 
