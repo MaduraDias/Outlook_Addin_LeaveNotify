@@ -1,4 +1,3 @@
- 
 # **Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react)**
  
 ## **Technology Stack**
@@ -24,7 +23,7 @@ npm install -g yo
 npm install -g yo generator-office
 ```
 
-## Creating the Addin App and Installing Dependencies 
+## Creating the outlook Add-in App and Installing the Dependencies 
 
 Run following commands on the Command Prompt
 
